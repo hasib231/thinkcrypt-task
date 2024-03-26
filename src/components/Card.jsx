@@ -24,7 +24,7 @@ const Card = ({ product }) => {
           <button className="flex items-center bg-red-500 text-white py-2 px-3 w-6/12">
             <MdOutlineShoppingCart size={"14px"} />
             <span className=" ms-2 text-xs">ADD TO CART</span>
-          </button>
+          </button> 
         </div>
       </div>
     );

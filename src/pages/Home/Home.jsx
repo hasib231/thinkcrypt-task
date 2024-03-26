@@ -4,8 +4,11 @@ import OurCoreValues from './OurCoreValues';
 import OurProcurement from './OurProcurement';
 import WhoWeAre from './WhoWeAre';
 import ProductCategories from './ProductCategories';
-import Footer from '../../shared/Footer';
 import FeaturedProducts from './FeaturedProducts';
+import BestSellers from './BestSellers';
+import BonelessCut from './BonelessCut';
+import FrozenItems from './FrozenItems';
+import Marinated from './Marinated';
 
 const Home = () => {
     return (
@@ -16,7 +19,10 @@ const Home = () => {
             <WhoWeAre></WhoWeAre>
             <ProductCategories></ProductCategories>
             <FeaturedProducts></FeaturedProducts>
-            <Footer></Footer>
+            <BestSellers></BestSellers>
+            <BonelessCut></BonelessCut>
+            <FrozenItems></FrozenItems>
+            <Marinated></Marinated>
         </div>
     );
 };
