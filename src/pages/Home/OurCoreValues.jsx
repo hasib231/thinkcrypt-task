@@ -12,7 +12,7 @@ const OurCoreValues = () => {
         <div className="bg-red-500 w-12 h-1 rounded-lg"></div>
       </div>
 
-      <div className="md:flex ">
+      <div className="md:flex">
         {/* first part */}
         <div>
           <img className="h-14 w-20" src={grass} alt="" />

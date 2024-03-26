@@ -13,10 +13,10 @@ const ProductCategories = () => {
         <div className="bg-red-500 w-12 h-1 rounded-lg"></div>
       </div>
 
-      <div className="md:flex md:justify-between">
-        <div className="bg-[#F1F1F1] w-72 h-64 rounded-sm">
+      <div className="flex flex-col items-center lg:flex-row lg:justify-between">
+        <div className="bg-[#F1F1F1] w-64 h-64 md:w-80 md:h-72 rounded-sm mt-12 md:mt-0">
           <img className="mx-auto pt-14" src={chicken} alt="" />
-          <button className="flex items-center border border-slate-300 px-3 py-2 mt-8 mx-auto">
+          <button className="flex items-center border border-slate-300 px-3 py-2 mt-12 mx-auto">
             <div>
               <h1 className="font-bold">
                 Shop <span className="text-red-500">Now</span>
@@ -28,9 +28,9 @@ const ProductCategories = () => {
           </button>
         </div>
 
-        <div className="bg-[#F1F1F1] w-72 h-64 rounded-sm">
+        <div className="bg-[#F1F1F1] w-64 h-64 md:w-80 md:h-72 rounded-sm mt-12 md:mt-0">
           <img className="mx-auto pt-14" src={cow} alt="" />
-          <button className="flex items-center border border-slate-300 px-3 py-2 mt-8 mx-auto">
+          <button className="flex items-center border border-slate-300 px-3 py-2 mt-12 mx-auto">
             <div>
               <h1 className="font-bold">
                 Shop <span className="text-red-500">Now</span>
@@ -42,9 +42,9 @@ const ProductCategories = () => {
           </button>
         </div>
 
-        <div className="bg-[#F1F1F1] w-72 h-64 rounded-sm">
+        <div className="bg-[#F1F1F1] w-64 h-64 md:w-80 md:h-72 rounded-sm mt-12 md:mt-0">
           <img className="mx-auto pt-14" src={sheep} alt="" />
-          <button className="flex items-center border border-slate-300 px-3 py-2 mt-8 mx-auto">
+          <button className="flex items-center border border-slate-300 px-3 py-2 mt-9 mx-auto">
             <div>
               <h1 className="font-bold">
                 Shop <span className="text-red-500">Now</span>
