@@ -3,7 +3,7 @@ import cycle from "../../assets/CoreValues/cycle.png";
 
 const OurProcurement = () => {
     return (
-      <div className=" w-9/12 mx-auto ">
+      <div className="w-11/12 md:w-9/12 mx-auto ">
         <div className="my-12">
           <h1 className="text-4xl font-bold">Our Procurement Cycle</h1>
           <div className="bg-red-500 w-12 h-1 rounded-lg"></div>
