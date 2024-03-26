@@ -3,7 +3,7 @@ import { FaArrowRightLong } from "react-icons/fa6";
 
 const LearnMore = ({firstText,secondText}) => {
     return (
-      <div className="my-12 flex items-center">
+      <button className="my-12 flex items-center">
         <div>
           <h1 className="font-bold">
             {firstText} <span className="text-red-500">{secondText}</span>
@@ -13,7 +13,7 @@ const LearnMore = ({firstText,secondText}) => {
         <div className="text-red-500 ms-2 mt-1">
           <FaArrowRightLong />
         </div>
-      </div>
+      </button>
     );
 };
 

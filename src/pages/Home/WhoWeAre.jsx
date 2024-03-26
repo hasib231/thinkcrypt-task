@@ -23,7 +23,7 @@ const WhoWeAre = () => {
                 product from production by processing to ready to eat and hence
                 “Farm to Fork”.
                 <span className="text-red-500">
-                  <RiDoubleQuotesR size={"25px"} />
+                  <RiDoubleQuotesR size={"25px"} />           
                 </span>
               </p>
 
