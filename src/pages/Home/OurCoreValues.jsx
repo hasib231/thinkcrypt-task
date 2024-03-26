@@ -6,7 +6,7 @@ import LearnMore from "../../components/LearnMore";
 
 const OurCoreValues = () => {
   return (
-    <div className=" w-9/12 mx-auto">
+    <div className=" w-8/12 mx-auto">
       <div className="my-12">
         <h1 className="text-4xl font-bold">Our Core Values</h1>
         <div className="bg-red-500 w-12 h-1 rounded-lg"></div>
