@@ -17,12 +17,12 @@ const HowWeDiff = () => {
             <thead>
               <tr>
                 <th></th>
-                <th className="font-bold text-2xl">
-                  <span className="text-black">LIVE</span>
+                <th className="font-bold md:text-2xl">
+                  <span className="text-black">LIVE </span>
                   <span className="text-red-500">FRESH</span>
                 </th>
-                <th className="font-bold text-2xl">
-                  <span className="text-black">Grocery</span>
+                <th className="font-bold md:text-2xl">
+                  <span className="text-black">Grocery </span>
                   <span className="text-red-500">Store</span>
                 </th>
               </tr>
@@ -30,7 +30,7 @@ const HowWeDiff = () => {
             <tbody>
               {/* row 1 */}
               <tr>
-                <td className="font-semi-bold text-xl">
+                <td className="font-semi-bold md:text-xl">
                   <span className="text-black">Humanely & </span>
                   <br />
                   <span className="text-red-500">Sustainably Raised</span>
@@ -45,7 +45,7 @@ const HowWeDiff = () => {
 
               {/* row 2 */}
               <tr>
-                <td className="font-semi-bold text-xl">
+                <td className="font-semi-bold md:text-xl">
                   <span className="text-black">Conviniently Delivered</span>
                   <br />
                   <span className="text-red-500">to your home</span>
@@ -60,7 +60,7 @@ const HowWeDiff = () => {
 
               {/* row 3 */}
               <tr>
-                <td className="font-semi-bold text-xl">
+                <td className="font-semi-bold md:text-xl">
                   <span className="text-black">No Antibiotics or</span>
                   <br />
                   <span className="text-red-500">Hormones</span>
@@ -75,7 +75,7 @@ const HowWeDiff = () => {
 
               {/* row 4 */}
               <tr>
-                <td className="font-semi-bold text-xl">
+                <td className="font-semi-bold md:text-xl">
                   <span className="text-black">No Added salts</span>
                   <br />
                   <span className="text-red-500">or Chemicals</span>
@@ -90,7 +90,7 @@ const HowWeDiff = () => {
 
               {/* row 5 */}
               <tr>
-                <td className="font-semi-bold text-xl">
+                <td className="font-semi-bold md:text-xl">
                   <span className="text-black">Zero Mechanical</span>
                   <br />
                   <span className="text-red-500">Tenderizing</span>
