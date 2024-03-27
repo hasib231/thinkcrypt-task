@@ -12,6 +12,7 @@ import Marinated from './Marinated';
 import HowWeDiff from './HowWeDiff';
 import OurBlog from './OurBlog';
 import ClientsSays from './ClientsSays';
+import Partners from './Partners';
 
 const Home = () => {
     return (
@@ -29,6 +30,7 @@ const Home = () => {
             <HowWeDiff></HowWeDiff>
             <OurBlog></OurBlog>
             <ClientsSays></ClientsSays>
+            <Partners></Partners>
         </div>
     );
 };

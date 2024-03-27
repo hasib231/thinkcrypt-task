@@ -9,8 +9,8 @@ const ClientsSays = () => {
           <div className="bg-red-500 w-12 h-1 rounded-lg"></div>
         </div>
 
-        <div className="flex justify-between mt-12">
-          <div className="flex w-5/12">
+        <div className="flex flex-col items-center md:flex-row md:justify-between mt-12">
+          <div className="flex md:w-5/12">
             <div className="bg-red-500 h-28 w-2 me-2 my-auto"></div>
             <div>
               <div className="flex">
@@ -35,7 +35,7 @@ const ClientsSays = () => {
           </div>
 
           {/* 2nd part */}
-          <div className="flex w-5/12">
+          <div className="flex md:w-5/12 mt-12 md:mt-0">
             <div className="bg-red-500 h-28 w-2 me-2 my-auto"></div>
             <div>
               <div className="flex">
@@ -51,7 +51,7 @@ const ClientsSays = () => {
                     <span className="text-red-500">
                       <RiDoubleQuotesR size={"18px"} />
                     </span>
-                    <h3 className="font-bold mt-5">Asif Istiaque</h3>
+                    <h3 className="font-bold mt-5">Siam Ahmed</h3>
                     <p className="text-xs">THINK CORPORATION</p>
                   </div>
                 </div>
