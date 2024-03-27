@@ -9,6 +9,7 @@ import bannerText3 from "../../assets/banner/banner_text3.png";
 const Banner = () => {
   return (
     <div
+      id="banner-section"
       className="hero lg:min-h-screen "
       style={{
         backgroundImage: `url(${bannerImg})`,
