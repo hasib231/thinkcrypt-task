@@ -9,6 +9,7 @@ import BestSellers from './BestSellers';
 import BonelessCut from './BonelessCut';
 import FrozenItems from './FrozenItems';
 import Marinated from './Marinated';
+import HowWeDiff from './HowWeDiff';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <BonelessCut></BonelessCut>
             <FrozenItems></FrozenItems>
             <Marinated></Marinated>
+            <HowWeDiff></HowWeDiff>
         </div>
     );
 };

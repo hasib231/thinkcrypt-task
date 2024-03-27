@@ -11,12 +11,11 @@ import {
 } from "react-icons/io5";
 
 const Navbar = () => {
-    const [isFirstSectionVisible, setIsFirstSectionVisible] = useState(true);
+    const [isFirstSectionVisible, setIsFirstSectionVisible] = useState(false);
 
     useEffect(() => {
       const handleScroll = () => {
         const firstSection = document.getElementById("banner-section");
-        // const secondSection = document.getElementById("second-section");
         const firstSectionHeight = firstSection.offsetHeight;
 
         if (window.scrollY <= firstSectionHeight) {
@@ -34,8 +33,9 @@ const Navbar = () => {
     }, []);
     return (
       <div>
+        {/* show navbar conditionally */}
         {isFirstSectionVisible ? (
-          <div className="navbar fixed z-10 bg-[#F1F1F1] text-black">
+          <div className="navbar fixed z-10 bg-[#F1F1F1] text-black transition duration-500 ease-in-out">
             <div className="navbar-start">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="">
@@ -73,7 +73,7 @@ const Navbar = () => {
             </div>
           </div>
         ) : (
-          <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white">
+          <div className="navbar fixed z-10 bg-opacity-30 bg-black text-white transition duration-500 ease-in-out">
             <div className="flex-none">
               <div className="dropdown">
                 <div tabIndex={0} role="button" className="">
