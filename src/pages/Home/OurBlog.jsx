@@ -16,8 +16,8 @@ const OurBlog = () => {
         <div className="bg-red-500 w-12 h-1 rounded-lg"></div>
       </div>
 
-      <div className="flex">
-        <div className="me-28">
+      <div className="md:flex">
+        <div className="md:me-28">
           <h1 className="font-bold text-3xl mt-8">
             12 Types of Steak & How to Cook Them
           </h1>
@@ -38,7 +38,7 @@ const OurBlog = () => {
       </div>
 
       {/* second part */}
-      <div className="mt-12 flex justify-between">
+      <div className="mt-12 flex flex-col items-center md:flex-row md:justify-between">
         {/* card 1 */}
         <div className="w-64">
           <img src={pic2} alt="" />

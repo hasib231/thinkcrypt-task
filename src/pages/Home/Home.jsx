@@ -11,6 +11,7 @@ import FrozenItems from './FrozenItems';
 import Marinated from './Marinated';
 import HowWeDiff from './HowWeDiff';
 import OurBlog from './OurBlog';
+import ClientsSays from './ClientsSays';
 
 const Home = () => {
     return (
@@ -27,6 +28,7 @@ const Home = () => {
             <Marinated></Marinated>
             <HowWeDiff></HowWeDiff>
             <OurBlog></OurBlog>
+            <ClientsSays></ClientsSays>
         </div>
     );
 };
